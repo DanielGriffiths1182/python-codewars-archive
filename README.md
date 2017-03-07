@@ -1,6 +1,10 @@
-#PYTHON CODEWARS
+#Python CodeWars Review
 
-*Content - chronology of archived CodeWars exercises, descriptions included*
+**Archive of completed CodeWars exercises, languages - Python**
+
+*Short description and numbered in chronological order.*
+
+#Python
 
 - 1 Remove all whitespace from object (string)
 
