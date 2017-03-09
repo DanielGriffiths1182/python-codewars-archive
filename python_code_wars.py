@@ -209,8 +209,13 @@ def getVolumeOfCubiod(length, width, height):
 def number_to_string(num):
     return str(num)
 
-#  27 "Plural" - We need a simple function that determines if a plural is needed or not. 
+#  27 "Plural" - We need a simple function that determines if a plural is needed or not.
 #     It should take a number, and return true if a plural should be used with that number or false if not.
 #     This would be useful when printing out a string such as 5 minutes, 14 apples, or 1 sun.
 def plural(n):
     return False if n == 1 else True
+
+#  28 "Circle area inside square" - Turn an area of a square in to an area of a circle that fits perfectly inside the square.
+import math
+def square_area_to_circle(size):
+    return size * math.pi / 4
